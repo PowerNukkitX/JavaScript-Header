@@ -1,6 +1,6 @@
 # JavaScript-Header
-PNXJS API code completion support for VSCode and other editors. 
-为VSCode等编辑器提供PNX API的代码补全支持 
+PNXJS API code completion support for VSCode and other editors.  
+为VSCode等编辑器提供PNX API的代码补全支持  
 不定时更新定义文件
 
 ### 可用的文件
