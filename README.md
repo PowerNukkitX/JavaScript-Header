@@ -1,7 +1,7 @@
 # JavaScript-Header
 PNXJS API code completion support for VSCode and other editors.
-### 目的
 为VSCode等编辑器提供PNX API的代码补全支持
+不定时更新定义文件
 
 ### 可用的文件
 - [core.d.ts](https://res.nullatom.com/res/pnx/vscode/core.d.ts) `cn.nukkitx.*` PNX核心API
