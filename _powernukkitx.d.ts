@@ -1,3 +1,8 @@
+declare function exposeFunction(key: string,func: Function):void;
+declare function exposeObject(key: string,func: Object):void;
+declare function exposeArray(key: string,func: Array<any>):void;
+declare function contain(key: string):null | object;
+
 declare module ":powernukkitx" {
     declare class EventPriority {
         static LOWEST;
@@ -315,7 +320,8 @@ declare module ":powernukkitx" {
         addOperatorParameter: (name: string, optional: boolean) => cmdBuilder,
         addCustomEnumParameter: (name: string, optional: boolean, data: Object, paramNode: Object, options: Object[]) => cmdBuilder,
         addEnumParameter: (name: string, optional: boolean, enums: string[]) => cmdBuilder,
-        register: () => boolean
+        register: () => boolean,
+        registerOld: () => boolean
     };
 
     type EventHandler<T> = {
