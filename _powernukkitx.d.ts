@@ -1,7 +1,7 @@
-declare function exposeFunction(key: string,func: Function):void;
-declare function exposeObject(key: string,func: Object):void;
-declare function exposeArray(key: string,func: Array<any>):void;
-declare function contain(key: string):null | object;
+declare function exposeFunction(key: string,func: any):void;
+declare function exposeObject(key: string,func: any):void;
+declare function exposeArray(key: string,func: any):void;
+declare function contain(key: string):any;
 
 declare module ":powernukkitx" {
     declare class EventPriority {
